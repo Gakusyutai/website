@@ -4,6 +4,22 @@ body{
   font-family:'メイリオ';
   overflow-x: hidden;
   overflow-y: auto;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  body{
+    background-color: white;
+    color: black;
+    font-family:'メイリオ';
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .title{ /*imgで全ての画像を、iframeで埋め込んだ全ての動画を指定できる */
@@ -54,7 +70,13 @@ li:nth-child(2) {
 
 .content{
   margin: 0px;
-  padding: 0px 80px;
+  padding: 0 80px; 
+}
+
+@media screen and (max-width: 767px) {
+  .content{
+    padding: 0 40px
+  }
 }
 
 .subtitle{ /*謹賀新年などのサブタイトル*/
@@ -69,9 +91,13 @@ h1{
   font-size: 25px;
 }
 
+h2{
+  font-size: 20px;
+}
+
 /*container全体にかかる*/
 .container{ 
-  font-size: 22px; /*18pxくらい*/
+  font-size: 20px;
   display: flex;
   margin-top: 20px;
   margin: 0;
@@ -85,6 +111,15 @@ h1{
   margin: 0 20px 0 0;
   padding: 0 10px; /*2つ目の値で要素の間隔を規定*/
   margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container li{
+    display: inline-block;
+    writing-mode: vertical-rl; /*縦書き*/
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 /*2/9追加分（そーちゃん）*/
