@@ -11,6 +11,7 @@
 * katsudo_rinen.html -> 活動理念
 * syakaiteki_igi.html -> 社会的意義
 * /contents/menu.html -> 楽習コンテンツ
+* member_intro.html -> 隊員紹介
 * howtoenter.html -> 入隊方法
 * question.html -> お問い合わせ
 * preparingpage.html -> 準備中
