@@ -148,3 +148,14 @@ h2{
     width: 100%;
   }
 }
+
+.infoList p{
+  padding-left: 40px;
+  list-style: none;
+  margin-left: auto;
+  text-indent: 0rem;
+}
+
+p{
+  text-indent: 1rem;
+}
