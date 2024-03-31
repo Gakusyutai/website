@@ -159,3 +159,9 @@ h2{
 p{
   text-indent: 1rem;
 }
+
+.card{
+  border: 0.25rem double darkturquoise;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0.5rem 1rem
+}
