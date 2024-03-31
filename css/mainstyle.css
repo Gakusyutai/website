@@ -69,7 +69,7 @@ li:nth-child(2) {
 }
 
 .content{
-  margin: 0px;
+  margin: 0;
   padding: 0 80px; 
 }
 
@@ -99,7 +99,6 @@ h2{
 .container{ 
   font-size: 20px;
   display: flex;
-  margin-top: 20px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -117,8 +116,8 @@ h2{
   .container li{
     display: inline-block;
     writing-mode: vertical-rl; /*縦書き*/
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -127,7 +126,7 @@ h2{
   height: 400px;
   width: 800px;
   text-align: center;
-  margin:0px; /*bodyの余白に合わせれば両端の余白生まれるので 0px でOK*/  
+  margin:0; /*bodyの余白に合わせれば両端の余白生まれるので 0px でOK*/
 }
 
 .thumbnail img{
@@ -153,7 +152,7 @@ h2{
   padding-left: 40px;
   list-style: none;
   margin-left: auto;
-  text-indent: 0rem;
+  text-indent: 0;
 }
 
 p{
